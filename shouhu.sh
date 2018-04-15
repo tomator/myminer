@@ -8,7 +8,7 @@ while true; do
         server=`ps aux | grep skypool | grep -v grep`
         if [ ! "$server" ]; then
             #如果不存在就重新启动
-            nohup ./CenterServer_d -c 1 &
+            nohup ./skypool-node-client -c 1 &
             #启动后沉睡10s
             sleep 10
         fi

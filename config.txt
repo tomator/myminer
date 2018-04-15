@@ -1,6 +1,6 @@
 {
   "address": "NQ17 GG1L 13NV DR8A SCAH U0FY K889 6XMU F97D",
-  "name": “miner2”,
+  "name": "miner1",
   "thread": 0,
   "percent": 100,
   "server": "auto"
